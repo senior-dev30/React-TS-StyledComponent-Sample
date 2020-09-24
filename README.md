@@ -1,4 +1,4 @@
-# GearBuddy React Frontend
+# React Frontend
 
 ## How to Run
 
