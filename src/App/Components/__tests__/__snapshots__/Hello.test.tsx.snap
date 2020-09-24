@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with defaults 1`] = `
+<div
+  className="sc-bdVaJa gTKXhV"
+>
+  <h1
+    className="sc-bxivhb gLEdJP"
+  >
+    Hello
+     
+    World!
+  </h1>
+  <div
+    className="sc-bwzfXH eQipRW"
+  >
+    <button
+      aria-label="decrement"
+      className="sc-htpNat iyPLpZ"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      aria-label="increment"
+      className="sc-htpNat iyPLpZ"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

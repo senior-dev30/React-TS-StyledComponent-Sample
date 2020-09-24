@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Session actions login 1`] = `
+Array [
+  Object {
+    "email": "identifier",
+    "password": "password",
+    "type": "LOGIN",
+  },
+]
+`;
+
+exports[`Session actions loginFailure 1`] = `
+Array [
+  Object {
+    "error": "loginFailure error message",
+    "type": "LOGIN_FAILURE",
+  },
+]
+`;
+
+exports[`Session actions loginSuccess 1`] = `
+Array [
+  Object {
+    "token": Object {
+      "value": "string",
+    },
+    "type": "LOGIN_SUCCESS",
+  },
+]
+`;
+
+exports[`Session actions logout 1`] = `
+Array [
+  Object {
+    "type": "LOGOUT",
+  },
+]
+`;
+
+exports[`Session actions logoutFailure 1`] = `
+Array [
+  Object {
+    "error": "logoutFailure error message",
+    "type": "LOGOUT_FAILURE",
+  },
+]
+`;
+
+exports[`Session actions logoutSuccess 1`] = `
+Array [
+  Object {
+    "type": "LOGOUT_SUCCESS",
+  },
+]
+`;

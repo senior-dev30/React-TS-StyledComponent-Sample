@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* OpenSans Fontstyle*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Fonts/OpenSans-Regular.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./Fonts/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+}

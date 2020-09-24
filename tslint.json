@@ -1,0 +1,39 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "arrow-parens": false, // 8.2
+    "comment-format": [true, "check-space"], // 18.3
+    "increment-decrement": true,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "no-boolean-literal-compare": true, // 15.3
+    "no-console": [true, "log", "error"],
+    "no-construct": true, // 22.2, 22.3, 22.6
+    "no-duplicate-imports": true, // 10.4
+    "no-eval": true, // 6.4
+    "no-magic-numbers": [true, 0, 1, 2, 3],
+    "no-parameter-reassignment": true, // 7.12
+    "no-this-assignment": true, // 23.5
+    "no-var-keyword": true, // 2.2
+    "object-literal-shorthand": true, // 3.3, 3.4
+    "object-literal-sort-keys": { "options": "match-declaration-order" },
+    "one-line": [false, "check-catch", "check-finally", "check-else"],
+    "one-variable-per-declaration": [true, "ignore-for-loop"], // 13.2
+    "prefer-const": true, // 2.1, 13.1
+    "radix": true, // 22.3
+    "strict-boolean-expressions": [
+      false,
+      "allow-null-union",
+      "allow-undefined-union",
+      "allow-string",
+      "allow-mix"
+    ],
+    "ter-prefer-arrow-callback": [true], // 8.1
+    "triple-equals": [true, "allow-null-check"], // 15.1
+    "variable-name": [true, "check-format", "allow-pascal-case"] // 23.2
+  },
+  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}
