@@ -1,4 +1,4 @@
-# React Frontend
+# React TypeScript StyledComponents Frontend
 
 ## How to Run
 
